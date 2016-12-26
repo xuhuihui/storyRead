@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TableRow>
+        <ImageView
+            android:background="@drawable/telephone"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/telphone"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="请输入你的手机号"
+            />
+
+
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:background="@drawable/password"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="请输入你的密码"
+            android:inputType="textPassword"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:background="@drawable/password"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/password_again"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="再输一遍密码"
+            android:inputType="textPassword"/>
+    </TableRow>
+
+    <LinearLayout>
+        <EditText
+            android:id="@+id/code"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+        <Button
+            android:id="@+id/code_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取验证码"
+            android:background="@drawable/shape"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+</TableLayout>

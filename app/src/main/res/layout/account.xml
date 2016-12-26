@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="445dp"
+        android:layout_weight="0.9" >
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/show">
+
+        <RelativeLayout
+            android:id="@+id/story"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="8.0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/story_list" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="26.0dp"
+                android:ellipsize="end"
+                android:maxEms="8"
+                android:maxLines="1"
+                android:textSize="14dp"
+                android:text="书架" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/find"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="8.0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/find"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="26.0dp"
+                android:ellipsize="end"
+                android:maxEms="8"
+                android:maxLines="1"
+                android:textSize="14dp"
+                android:text="发现"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/user"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="8.0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/user_red"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="26.0dp"
+                android:ellipsize="end"
+                android:maxEms="8"
+                android:maxLines="1"
+                android:textSize="14dp"
+                android:text="账户"
+                android:textColor="@color/colorRed"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

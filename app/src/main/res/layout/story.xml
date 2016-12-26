@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <ImageView
+        android:id="@+id/story_image"
+        android:layout_width="55dp"
+        android:layout_height="75dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/story_name"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="20dp"
+        android:maxEms="15"
+        android:text="小桥流水"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="260dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="-280dp"
+        android:maxEms="8"
+        android:text="木有才 著 | 33章未读"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/update_page"
+        android:layout_width="260dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="-260dp"
+        android:maxEms="30"
+        android:text="连载至：第三百五十四章 大闹天空"
+        android:textSize="15dp"
+        android:ellipsize="end"/>
+
+</LinearLayout>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d4c7a7"
+    android:orientation="vertical"
+    android:id="@+id/theme">
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:textSize="18dp" />
+
+    <RelativeLayout
+        android:id="@+id/set"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="-60dp"
+        android:background="#000000"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/story"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="8.0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/download" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="26.0dp"
+                android:ellipsize="end"
+                android:maxEms="8"
+                android:maxLines="1"
+                android:textSize="14dp"
+                android:text="下载"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/light"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="156dp"
+            android:layout_marginTop="8.0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="14dp"
+                android:src="@drawable/night"/>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="26.0dp"
+                android:textSize="14dp"
+                android:text="夜间模式"
+                android:textColor="#FFFFFF"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/set_text"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="8.0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/set_text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="26.0dp"
+                android:ellipsize="end"
+                android:maxEms="8"
+                android:maxLines="1"
+                android:textSize="14dp"
+                android:text="设置"
+                android:textColor="#FFFFFF"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/module"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="-150dp"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="0dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/light_remove" />
+            <!-- 定义一个拖动条，并改变它的滑块外观 -->
+            <SeekBar android:id="@+id/lightbar"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:progress="100" android:max="100"
+                android:progressBackgroundTint="@color/colorAccent"  />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/light_add" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="系统亮度"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/border"
+                android:layout_marginLeft="15dp"/>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d1cdcd"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="49dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:id="@+id/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/red"
+                android:layout_marginRight="10dp"/>
+            <ImageView
+                android:id="@+id/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/white"
+                android:layout_marginRight="10dp"/>
+            <ImageView
+                android:id="@+id/green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/green"
+                android:layout_marginRight="10dp"/>
+            <ImageView
+                android:id="@+id/blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blue"
+                android:layout_marginRight="10dp"/>
+            <ImageView
+                android:id="@+id/yellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/yellow"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textColor="#FFFFFF"
+                android:textSize="19dp"
+                android:layout_marginRight="5dp"/>
+            <ImageView
+                android:id="@+id/more"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/add"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="背景颜色"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/border"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d1cdcd"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="99dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="100dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/size_remove" />
+            <!-- 定义一个拖动条，并改变它的滑块外观 -->
+            <SeekBar android:id="@+id/textbar"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:progress="100" android:max="100"
+                android:progressBackgroundTint="@color/colorAccent"  />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/size_add" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="字体大小"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/border"
+                android:layout_marginLeft="15dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="-300dp"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:visibility="gone">
+    </RelativeLayout>
+
+
+</LinearLayout>

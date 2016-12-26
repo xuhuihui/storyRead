@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+    <TableRow>
+        <ImageView
+            android:background="@drawable/telephone"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/telphone"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="手机号"
+            android:layout_column="2" />
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:background="@drawable/password"
+            android:layout_height="40dp"
+            android:layout_width="40dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            android:hint="密码"
+            android:layout_column="2" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/register"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+</TableLayout>
