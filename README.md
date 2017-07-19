@@ -22,16 +22,10 @@
 
 4. 系统运行截图：
 
-![image](https://github.com/xuhuihui/storyRead/blob/master/img/1.png) ![image](https://github.com/xuhuihui/storyRead/blob/master/img/2.png)
+![image](https://github.com/xuhuihui/storyRead/blob/master/img/1.png) ![image](https://github.com/xuhuihui/storyRead/blob/master/img/2.png) 
 
-![image](https://github.com/xuhuihui/storyRead/blob/master/img/3.png)
+![image](https://github.com/xuhuihui/storyRead/blob/master/img/3.png) ![image](https://github.com/xuhuihui/storyRead/blob/master/img/4.png) 
 
-![image](https://github.com/xuhuihui/storyRead/blob/master/img/4.png)
+![image](https://github.com/xuhuihui/storyRead/blob/master/img/5.png) ![image](https://github.com/xuhuihui/storyRead/blob/master/img/6.png)
 
-![image](https://github.com/xuhuihui/storyRead/blob/master/img/5.png)
-
-![image](https://github.com/xuhuihui/storyRead/blob/master/img/6.png)
-
-![image](https://github.com/xuhuihui/storyRead/blob/master/img/7.png)
-
-![image](https://github.com/xuhuihui/storyRead/blob/master/img/8.png)
+![image](https://github.com/xuhuihui/storyRead/blob/master/img/7.png) ![image](https://github.com/xuhuihui/storyRead/blob/master/img/8.png)
