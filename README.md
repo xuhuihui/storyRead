@@ -20,7 +20,8 @@
 
   （6）调节小说背景颜色，字体大小，屏幕亮度功能。背景颜色有常用颜色和颜色选择器功能。字体和屏幕用滑动条调整。
 
-4. 系统运行截图
+4. 系统运行截图：
+
 https://github.com/xuhuihui/storyRead/blob/master/img/1.png
 https://github.com/xuhuihui/storyRead/blob/master/img/2.png
 https://github.com/xuhuihui/storyRead/blob/master/img/3.png
