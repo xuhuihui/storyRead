@@ -22,9 +22,7 @@
 
 4. 系统运行截图：
 
-![image](https://github.com/xuhuihui/storyRead/blob/master/img/1.png)
-
-![image](https://github.com/xuhuihui/storyRead/blob/master/img/2.png)
+![image](https://github.com/xuhuihui/storyRead/blob/master/img/1.png) ![image](https://github.com/xuhuihui/storyRead/blob/master/img/2.png)
 
 ![image](https://github.com/xuhuihui/storyRead/blob/master/img/3.png)
 
