@@ -1,26 +1,26 @@
-悦书-系统说明文档
-1.	APP名称：悦书--------一个在线小说浏览器 
+Yue Shu - System documentation
+1. APP name: Yue book -------- an online novel browser
 
-2. 工作量（代码行数/源代码文件数量）：
+2. Workload (number of lines of code / source code):
 
-  代码行数：java类有1264行代码，rawable文件下的xml有747行代码，drawable文件下的xml有385行代码，共计2396行代码。
-源代码文件数量：java类11个，layout文件下的xml布局7个，drawable文件下的xml布局8个，共计26个文件。
+  Code lines: java class has 1264 lines of code, rawable documents under the xml 747 lines of code, drawable documents under the xml 385 lines of code, a total of 2396 lines of code.
+The number of source code files: java class 11, layout file under the xml layout 7, drawable file xml layout 8, a total of 26 files.
 
-3. 系统功能描述：
+3. System function description:
 
-  （1）采用第三方bomb后端云服务平台，把数据库，小说txt文件，小说的图片存放在此服务器上。通过接口代码，联网可获取数据。
+  (1) the use of third-party bomb back-end cloud service platform, the database, novel txt file, novel pictures stored on this server. Through the interface code, networking can obtain data.
 
-  （2）登录，注册功能。注册实现短信验证码功能。
+  (2) login, registration function. Sign up to achieve SMS verification code function.
 
-  （3）在线查看小说书籍信息，小说内容功能。采用多线程或异步调用方法，用手机缓存数据，查看小说，不会耗费太多流量。
+  (3) online view novel book information, novel content function. Using multi-threaded or asynchronous call method, with the phone cache data, view the novel, will not consume too much traffic.
 
-  （4）可以下载整本小说到手机本地。
+  (4) can download the entire novel to the phone locally.
 
-  （5）支持左右翻页，夜间模式，日间模式功能。
+  (5) support left and right flip, night mode, day mode function.
 
-  （6）调节小说背景颜色，字体大小，屏幕亮度功能。背景颜色有常用颜色和颜色选择器功能。字体和屏幕用滑动条调整。
+  (6) adjust the novel background color, font size, screen brightness function. Background colors are commonly used color and color selector function. The font and screen are adjusted with a slider.
 
-4. 系统运行截图：
+4. System operation screenshots:
 
 ![image](https://github.com/xuhuihui/storyRead/blob/master/img/1.png) ![image](https://github.com/xuhuihui/storyRead/blob/master/img/2.png) 
 
